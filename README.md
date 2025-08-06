@@ -38,7 +38,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 
 ---
 
-## 📷 project circuit
+## 📷 project`s circuit
 
 ![photo](Obstacle-Avoiding-Robot-Arduino-circuit.png)
 
