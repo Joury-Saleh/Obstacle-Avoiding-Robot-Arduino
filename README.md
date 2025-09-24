@@ -1,6 +1,6 @@
-# 🤖 Obstacle-Avoiding Robot with 4 DC Motors, L293D Dual Drivers, Servo and Ultrasonic Sensor
+#  Obstacle-Avoiding Robot with 4 DC Motors, L293D Dual Drivers, Servo and Ultrasonic Sensor
 
-## 📄 Description
+## Description
 
 This Arduino-based robot is capable of autonomous movement and obstacle avoidance. It utilizes:
 
@@ -13,7 +13,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 
 ---
 
-## 🧠 Features
+## Features
 
 - Controls 4 DC motors for full mobility
 - Detects obstacles with HC-SR04 ultrasonic sensor
@@ -23,7 +23,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 
 ---
 
-## 🖥️ Components
+## Components
 
 | Component               | Quantity |
 |------------------------|----------|
@@ -38,15 +38,15 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 
 ---
 
-## 📷 project`s circuit
+## project`s circuit
 
 ![photo](Obstacle-Avoiding-Robot-Arduino-circuit.png)
 
 ---
 
-## 🔌 Circuit Wiring
+## Circuit Wiring
 
-### 🟨 L293D Driver #1 (Motors 1 & 2)
+### L293D Driver #1 (Motors 1 & 2)
 
 | L293D Pin | Arduino Pin | Function            |
 |-----------|-------------|---------------------|
@@ -65,7 +65,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 | 15 (IN4)  | D7          | Motor 2 direction 2 |
 | 16 (VCC1) | 5V          | Logic power         |
 
-### 🟩 L293D Driver #2 (Motors 3 & 4)
+### L293D Driver #2 (Motors 3 & 4)
 
 | L293D Pin | Arduino Pin | Function            |
 |-----------|-------------|---------------------|
@@ -84,7 +84,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 | 15 (IN4)  | D13         | Motor 4 direction 2 |
 | 16 (VCC1) | 5V          | Logic power         |
 
-### 🔵 Servo Motor
+### Servo Motor
 
 | Servo Pin | Arduino Pin |
 |-----------|-------------|
@@ -92,7 +92,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 | VCC       | 5V          |
 | GND       | GND         |
 
-### 🔶 Ultrasonic Sensor (HC-SR04)
+### Ultrasonic Sensor (HC-SR04)
 
 | Sensor Pin | Arduino Pin |
 |------------|-------------|
@@ -103,7 +103,7 @@ Designed as a beginner project to explore robotics, motor drivers, sensors, and 
 
 ---
 
-## 🤖 Behavior Logic
+## Behavior Logic
 
 1. Move forward for 30 seconds
 2. Move backward for 1 minute
